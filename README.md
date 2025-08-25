@@ -40,3 +40,4 @@ These are shared modules used across the applications.
 -   `packages/shared-types`: Contains shared TypeScript types and interfaces (e.g., `NewsItem`, `FilterSettings`) to ensure type safety between the API and the desktop client.
 -   `packages/eslint-config-custom`: Holds the shared ESLint configuration to enforce consistent coding standards across the entire codebase.
 -   `packages/tsconfig-custom`: Provides a base TypeScript `tsconfig.json` for all other packages to inherit from, ensuring consistent compiler settings.
+"# day-trader-news-feed" 
