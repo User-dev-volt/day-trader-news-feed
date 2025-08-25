@@ -1,0 +1,10 @@
+{
+  "name": "tsconfig-custom",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "typescript": "^5.5.3"
+  }
+}

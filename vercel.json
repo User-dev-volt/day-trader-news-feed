@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "apps/api/src/functions/**/*.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/apps/api/src/functions/$1"
+    }
+  ]
+}
